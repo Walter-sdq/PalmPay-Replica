@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap";
 @import url(./item.css);
+@import url(./section.css);
 body {
   padding: 0;
   margin: 0;
@@ -18,7 +19,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   font-size: 18px;

@@ -1,0 +1,28 @@
+main,
+div {
+  display: block;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  color: #202046;
+}
+
+section .s1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.s1 .cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  /* color: #202046; */
+}
+.s1 .cont span {
+  font-weight: 700;
+}
