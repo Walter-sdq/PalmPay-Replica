@@ -16,6 +16,7 @@ section .s1 {
   justify-content: center;
   width: 100%;
 }
+
 .s1 .cont {
   display: flex;
   flex-direction: column;
@@ -24,34 +25,100 @@ section .s1 {
   font-size: 42px;
   /* color: #202046; */
 }
+
 .s1 .cont span {
   font-weight: 700;
 }
 
-.body{
+.body {
   display: flex;
   align-items: center;
   /* justify-content: center; */
   padding: 1% 8% 0% 10%;
 }
-.title{
+
+.title {
   margin-right: 20px;
   padding-bottom: 10px;
 }
-.cont_sub{
+
+.cont_sub {
   font-size: 16px;
   margin-right: 15px;
   padding-bottom: 10px;
 }
 
-.object{
+.object {
   display: flex;
   align-items: center;
   /* padding: 1% 8% 0% 10%; */
 }
-.box{
+
+.box {
   display: flex;
 }
-.download_btns{
+
+.download_btns {
   padding-top: 30px;
 }
+
+/* section 2 */
+
+section .s2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.s2 .cont {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 20px;
+  /* color: #202046; */
+  padding-left: 80px;
+}
+
+.s2 .cont span {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 1% 8% 0% 10%;
+}
+
+.title {
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.cont_sub {
+  font-size: 20px;
+  /* margin-right: 15px; */
+  /* padding-bottom: 10px; */
+}
+
+.object {
+  display: flex;
+  align-items: center;
+  /* padding: 1% 8% 0% 10%; */
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .lrn_more_btn {
+  display:flex;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 30px;
+} */
