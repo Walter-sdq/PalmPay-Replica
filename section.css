@@ -18,11 +18,40 @@ section .s1 {
 }
 .s1 .cont {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
   justify-content: center;
   font-size: 42px;
   /* color: #202046; */
 }
 .s1 .cont span {
   font-weight: 700;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 1% 8% 0% 10%;
+}
+.title{
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+.cont_sub{
+  font-size: 16px;
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.object{
+  display: flex;
+  align-items: center;
+  /* padding: 1% 8% 0% 10%; */
+}
+.box{
+  display: flex;
+}
+.download_btns{
+  padding-top: 30px;
 }

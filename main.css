@@ -12,6 +12,7 @@ body {
 * {
   margin: 0;
   padding: 0;
+  transition: all 1s;
   font-family: Poppins, sans-serif !important;
 }
 nav {
@@ -26,6 +27,8 @@ nav {
   color: #4a4a4a;
   font-weight: 700;
   border-bottom: #4a4a4a;
+  background-color: white;
+  border-bottom: #dfdcdc solid 1px;
 }
 .all {
   position: absolute;
@@ -34,6 +37,8 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 30px 10% 10px;
+  background-color: white;
+  border-bottom: #dfdcdc solid 1px;
 }
 .list {
   display: flex;
