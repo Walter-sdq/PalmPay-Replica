@@ -1,0 +1,46 @@
+.item-1 {
+    display: flex;
+  }
+  .item-2 {
+    display: flex;
+  }
+  .item-3 {
+    display: flex;
+  }
+  .item-4 {
+    display: flex;
+  }
+  .item-5 {
+    display: flex;
+  }
+
+  #item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+  }
+
+
+
+
+  /* drop down
+.drop {
+  display: none;
+}
+
+.drop a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+.item-1:hover .drop {
+  display: block;
+  cursor: pointer;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+} */
